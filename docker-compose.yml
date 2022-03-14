@@ -25,6 +25,7 @@ services:
       - elk
 
   elasticsearch:
+    container_name: elasticsearch
     build:
       context: elasticsearch/
       args:
